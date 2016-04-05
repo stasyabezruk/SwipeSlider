@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+ul li {
+    list-style: none;
+}
+body {
+    background: #a8a7a7;
+}
+.container {
+    width:700px;
+    margin:0 auto;
+}
+.clear_transition {
+    transition: all 0s !important;
+}
+.viewport {
+    width:100%;
+    height auto;
+    position:relative;
+    overflow: hidden;
+    border: 10px solid #FFF;
+    z-index: 1;
+}
+.slider {
+    white-space: nowrap;
+    display: table;
+    transform:translateX(-100%);
+    z-index: 100;
+}
+
+.slider .slide {
+    display: inline-block;
+    position: relative;
+    width:100%;
+}
+.slide img {
+    width:100%;
+     vertical-align: middle;
+}
